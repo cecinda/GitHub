@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- ...existing code... -->
+</head>
+<body>
+    <header>
+        <h1>Sara Torres</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Discover my journey and expertise in data science.</p>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Sara Torres, a passionate data scientist with a love for uncovering insights from data.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Data Visualization</li>
+            <li>SQL</li>
+            <li>Statistics</li>
+        </ul>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume to learn more about my professional journey and achievements.</p>
+        <a href="resume.pdf" download="Sara_Torres_Resume.pdf">Download Resume</a>
+    </section>
+    <!-- ...existing code... -->
+</body>
+</html>

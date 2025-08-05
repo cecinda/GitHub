@@ -1,2 +1,47 @@
-x = THIS IS A TEST!
-print(x)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <h1>John Doe</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Exploring the world of Data Science</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate data scientist with a strong background in analytics and machine learning. I love turning data into meaningful insights.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Python</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Data Analysis</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Statistical Analysis</div>
+            <div class="skill">Data Visualization</div>
+        </div>
+    </section>
+</body>
+</html>

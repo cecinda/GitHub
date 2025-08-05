@@ -1,1 +1,2 @@
-THIS IS A TEST!
+x = THIS IS A TEST!
+print(x)

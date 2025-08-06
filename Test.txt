@@ -1,2 +1,0 @@
-x = THIS IS A TEST!
-print(x)
